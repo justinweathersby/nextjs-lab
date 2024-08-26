@@ -3,6 +3,11 @@ import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import { lusitana } from "@ui/fonts";
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Acme Course",
+};
 
 export default function Page() {
   return (
